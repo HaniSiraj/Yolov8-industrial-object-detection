@@ -93,26 +93,31 @@ Build an accurate and efficient object detection model using **YOLOv8**, and opt
 
 ---
 
-### ❌ Failure Cases
+### ❌ Failure Cases & Insights
 
-Despite strong performance, the model struggled in the following scenarios:
+While the model achieved strong overall performance, it faced challenges in certain real-world scenarios:
 
-- **Low Lighting**: Toolbox detection was often missed in dark conditions.
-- **Partial Occlusion**: OxygenTanks frequently went undetected when partially hidden.
+- **Low Lighting Conditions**: Toolbox detection failed in dark environments.
+- **Partial Occlusion**: OxygenTanks were frequently missed when partially hidden behind other objects.
 
-These failure modes informed targeted augmentations such as HSV tuning and occlusion-aware transforms.
+These failures guided targeted augmentation strategies, such as HSV brightness adjustment and occlusion-aware transforms.
 
-Our output
-![Failure Cases](./assets/failure_cases.png)
-Given Labels
-![Failure Cases](./assets/failure_cases.png)
+#### 🔎 Visual Example
 
-Here the model is unable to predict the toolbox in low lighting (first image) which is clearly shown in the labels(second image)
-Adjusted parameters for better detection in low light
-hsv_h=0.015,
-hsv_s=0.7,
-hsv_v=0.7,  # Increased value (brightness)
-Mosaic = 0.8
+| Model Prediction Output | Ground Truth Labels |
+|-------------------------|---------------------|
+| ![Model Output](./assets/failure_cases.png) | ![Ground Truth](./assets/failure_cases.png) |
+
+In this example, the model fails to detect the toolbox in low-light conditions (left), while the ground truth clearly labels it (right).
+
+#### 🔧 Adjustments Made
+
+```python
+hsv_h = 0.015
+hsv_s = 0.7
+hsv_v = 0.7  # Increased brightness
+mosaic = 0.8
+```
 
 ---
 
@@ -120,8 +125,8 @@ Mosaic = 0.8
 
 Read the full shared task-style research paper with methodology, results, and improvements:
 
-📄 [View the Paper on Overleaf (LaTeX)](https://www.overleaf.com/read/your-share-link)  
-📥 [Download as PDF](https://your-pdf-download-link)
+📄 [View the Paper on Overleaf (LaTeX)](https://www.overleaf.com/read/ccyfrshtygxq#c70f4d)  
+📥 [Download as PDF](https://www.overleaf.com/download/project/6875152bf9087c66b8e4f3ce/build/1980988aede-f8c3828727378e11/output/output.pdf?compileGroup=standard&clsiserverid=clsi-reg-n2d-b-f-gls8&enable_pdf_caching=true&popupDownload=true)
 
 ---
 
@@ -129,7 +134,7 @@ Read the full shared task-style research paper with methodology, results, and im
 
 **Hani Siraj**  
 AI Undergraduate — FAST NUCES Karachi  
-📧 hanisiraj@email.com  
+📧 haanisiraj@email.com  
 🌐 [LinkedIn](https://www.linkedin.com/in/your-profile) · [Portfolio](https://your-site.com)
 
 ---
@@ -145,9 +150,12 @@ AI Undergraduate — FAST NUCES Karachi
 
 ## 🤝 Acknowledgment
 
-Project developed with support from fellow students at FAST NUCES Karachi.  
-[Teammates: Hasan Abdul - k228727@nu.edu.pk
-Sajad ali - k228729@nu.edu.pk]
+Project developed with support from fellow students at FAST NUCES Karachi.
+
+**Teammates:**
+- Hasan Abdul — k228727@nu.edu.pk  
+- Sajad Ali — k228729@nu.edu.pk
+
 
 ---
 
