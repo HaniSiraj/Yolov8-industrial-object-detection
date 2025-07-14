@@ -135,7 +135,7 @@ Read the full shared task-style research paper with methodology, results, and im
 **Hani Siraj**  
 AI Undergraduate — FAST NUCES Karachi  
 📧 haanisiraj@email.com  
-🌐 [LinkedIn](https://www.linkedin.com/in/your-profile) · [Portfolio](https://your-site.com)
+🌐 [LinkedIn](https://pk.linkedin.com/in/hani-s-24b3a2209?trk=people-guest_people_search-card) · [Portfolio](https://your-site.com)
 
 ---
 
