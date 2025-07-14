@@ -1,6 +1,6 @@
 # 🚀 YOLOv8 Object Detection for Industrial Safety Environments
 
-> **YOLOv8 Object Detection for Industrial Safety. A shared-task machine learning project using YOLOv8l to detect Fire Extinguishers, Toolboxes, and Oxygen Tanks with 85.1% mAP@0.5. Includes training notebook, evaluation visuals, and full technical paper.**  
+> **YOLOv8 Object Detection for Industrial Safety. A shared-task machine learning project using YOLOv8l to detect Fire Extinguishers, Toolboxes, and Oxygen Tanks with 85.1% mAP@0.5. Includes training notebook, evaluation visuals, and full technical shared task paper.**  
 > Developed as part of a university-level ML competition  
 > 📍 FAST NUCES Karachi · 🧑‍💻 Hani Siraj
 
