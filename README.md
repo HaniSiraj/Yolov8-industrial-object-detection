@@ -73,7 +73,7 @@ Build an accurate and efficient object detection model using **YOLOv8**, and opt
 
 *Include your loss curves, mAP plots here*
 
-![Training Curve Placeholder](./assets/training_metrics.png)
+![Training Curve Placeholder](./assets/training%20metrics.png)
 
 ---
 
