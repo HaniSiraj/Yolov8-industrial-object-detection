@@ -85,11 +85,17 @@ Build an accurate and efficient object detection model using **YOLOv8**, and opt
 
 ---
 
+### 📊 Evaluation metrics
+
+![Eval Metrics Placeholder](./assets/eval%20metrics.png)
+
+---
+
 ### 🔀 Confusion Matrix
 
 *Highlight class-wise confusion*
 
-![Confusion Matrix Placeholder](./assets/testing_confusion_matrix.png)
+![Confusion Matrix Placeholder](./assets/testing%20confusion%20matrix.png)
 
 ---
 
