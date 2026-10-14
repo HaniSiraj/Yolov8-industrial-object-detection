@@ -81,7 +81,7 @@ Build an accurate and efficient object detection model using **YOLOv8**, and opt
 
 *Predictions on validation images*
 
-![Detections Placeholder](./assets/sample_detections.png)
+![Detections Placeholder](./assets/detection.png)
 
 ---
 
